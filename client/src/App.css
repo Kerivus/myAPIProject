@@ -1,0 +1,125 @@
+html, body, #root, .App{
+  height: 100%;
+}
+
+.Home{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.searchBar{
+  text-align: center;
+}
+
+.gamePoster{
+  min-width: 25%;
+}
+.ContainerDetails .col div.row{
+  width: 85%;
+}
+.col span{
+  color: aliceblue;
+  font-size:32px;
+  margin:left;
+}
+
+.ContainerDetails{
+  background-color: rgb(0,0,0,0.8);
+  padding: 2%;
+  margin: 3%;
+}
+
+.ContainerDetails span.content{
+  color: burlywood;
+  font-size: 28px;
+}
+
+.card{
+  margin: 45px;
+  background: rgba(128, 175, 136, 0.3);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-body{
+  font-size: 25px;
+  color: aliceblue;
+}
+
+.card-body button{
+  width: 100px;
+  height: 50px;
+  font-size: 32px;
+  color: chocolate;
+  margin: 8px 0 0 20px !important;
+  border-radius: 5px;
+}
+
+.App h1, .Header h1{
+  color: burlywood;
+  font-size: 80px;
+  text-align: center;
+}
+
+.searchBar label{
+  font-size: 50px;
+  color: cornsilk;
+}
+
+.searchBar input[type="text"]{
+  min-width: 600px;
+  font-size: 35px;
+  margin-left: 20px;
+  min-height: 45px;
+}
+
+.searchBar input[type="submit"]{
+  width: 283px;
+  height: 50px;
+  font-size: 32px;
+  color: chocolate;
+  margin: 8px 0 0 20px !important;
+  border-radius: 5px;
+}
+
+.searchBar input[type="button"]{
+  width: 500px;
+  height: 50px;
+  font-size: 32px;
+  color: chocolate;
+  margin: 35px 0 0 20px !important;
+  border-radius: 5px;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
